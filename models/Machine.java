@@ -25,7 +25,13 @@ public class Machine {
         }
         items[row][spot].setQuantity(items[row][spot].getQuantity() - 1);
     }
+     public int getLength(){
+        return this.items.length;
+     }
 
+     public int getRowLength(){
+        return this.items[0].length;
+     }
     
 
     public String toString() {
